@@ -1,0 +1,11 @@
+{
+    "params":{
+        "d":[8,10],  
+        "k":[3,4,5,6]},
+        "other_params":{
+          "nsim":[10], 
+          "seed":323524,
+          "random_seed_for_each": ["nsim"]  
+      }
+}
+

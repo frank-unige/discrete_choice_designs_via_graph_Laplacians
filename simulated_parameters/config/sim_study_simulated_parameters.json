@@ -1,0 +1,13 @@
+{
+    "params":{
+        "d":[6],  
+        "k":[3],
+      "sig":[0.25,1,2.25,4]
+    },
+        "other_params":{
+          "nsim":[1000], 
+          "seed":323524,
+          "random_seed_for_each": ["nsim"]  
+      }
+}
+
