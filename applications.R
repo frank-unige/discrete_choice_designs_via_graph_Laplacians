@@ -18,7 +18,7 @@ k=4
 
 ### Study design
 
-w_hankin=c(0,0,0,11/124,15/124,9/124,18/124,18/124,8/124,0,11/124,16/124,18/124,0,0)
+w_hankin=c(0,0,0,20/133,15/133,9/133,18/133,18/133,8/133,0,11/133,16/133,18/133,0,0)
 
 ### Compute BIBD information determinant
 
@@ -40,10 +40,9 @@ w_opt=result_opt$w
 
 ### Compute rounded design from optimal design
 
-(round(w_opt*124)-w_opt*124)
-w_opt_rounded=round(w_opt*124)
-w_opt_rounded[8]=11
-w_opt_rounded=w_opt_rounded/124
+(round(w_opt*133)-w_opt*133)
+w_opt_rounded=round(w_opt*133)
+w_opt_rounded=w_opt_rounded/133
 sum(w_opt_rounded)
 
 ### Compute rounded design information determinant
